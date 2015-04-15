@@ -23,7 +23,7 @@ namespace Spielwiese
         {
             string test = GetAnswer_String();
             int answer = GetAnswer_Int();
-            MessageBox.Show(test + " = " + answer.ToString());
+            MessageBox.Show("Dies ist die Antwort: " + test + " = " + answer.ToString());
         }
 
         public int GetAnswer_Int()
